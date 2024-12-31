@@ -54,7 +54,8 @@ registration number 24900367
 
 
 
- ``` module d_ff_neg_edge (d, clk, rst, q);
+ ```
+  module d_ff_neg_edge (d, clk, rst, q);
   
   input d, clk, rst;
   
@@ -92,8 +93,8 @@ registration number 24900367
 **TIMING DIAGRAM FOR FLIP FLOPS**
 
 
+![WhatsApp Image 2024-12-31 at 13 25 22_d7e96515](https://github.com/user-attachments/assets/8f1e4a38-6b99-42ef-8618-a4bc5e070c1b)
 
-![WhatsApp Image 2024-12-31 at 13 24 53_d49feb59](https://github.com/user-attachments/assets/0f95beee-076b-4078-a792-6d6726117a2a)
 
 
 
