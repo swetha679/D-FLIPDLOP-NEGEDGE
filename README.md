@@ -54,17 +54,17 @@ registration number 24900367
 
 
 
-module d_ff_neg_edge (d, clk, rst, q);
+  module d_ff_neg_edge (d, clk, rst, q);
   input d, clk, rst;
   output reg q;
 
   always @(negedge clk or posedge rst) begin
-    if (rst)
-      q <= 0; // Reset the flip-flop
-    else
-      q <= d; // D input is passed to Q on the negative clock edge
+  if (rst)
+  q <= 0; // Reset the flip-flop
+  else
+  q <= d; // D input is passed to Q on the negative clock edge
   end
-endmodule
+   endmodule
 
 
 
@@ -79,16 +79,16 @@ endmodule
 
 
 
-**TIMING DIAGRAMS FOR FLIP FLOPS**
+**TIMING DIAGRAM FOR FLIP FLOPS**
+
+
+
+![WhatsApp Image 2024-12-31 at 13 24 53_d49feb59](https://github.com/user-attachments/assets/0f95beee-076b-4078-a792-6d6726117a2a)
 
 
 
 
-![image](https://github.com/user-attachments/assets/a597079c-0965-4e89-a4ef-ee97bd64b07f)
-
-
-
-**RESULTS**
+**RESULT**
 
 
 D flipflop using Verilog and validating their functionality using their functional tables is verified.
