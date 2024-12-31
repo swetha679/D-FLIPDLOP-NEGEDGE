@@ -54,17 +54,27 @@ registration number 24900367
 
 
 
-  module d_ff_neg_edge (d, clk, rst, q);
+ ``` module d_ff_neg_edge (d, clk, rst, q);
+  
   input d, clk, rst;
+  
   output reg q;
+  
 
   always @(negedge clk or posedge rst) begin
+  
   if (rst)
+  
   q <= 0; // Reset the flip-flop
+
   else
+
   q <= d; // D input is passed to Q on the negative clock edge
+
   end
+
    endmodule
+```
 
 
 
